@@ -1,13 +1,13 @@
 // check for saved 'darkMode' in localStorage
-window.addEventListener("load", function() {
-    const loader = document.querySelector(".spin-box");
-    loader.className += " hidden"; // class "loader hidden"
-});
+
 let darkMode = localStorage.getItem('darkMode');
 
 const darkModeToggle = document.querySelector('#dark-mode-toggle');
 const themeToggle = document.querySelector('#theme-button');
-
+window.addEventListener("load", function() {
+    const loader = document.querySelector(".spin-box");
+    loader.className += " hidden"; // class "loader hidden"
+});
 const enableDarkMode = () => {
     // 1. Add the class to the body
     document.body.classList.add('darkmode');
