@@ -1,39 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-}
-
- :root {
-    --clr-light: #EEEEEE;
-    --clr-dark: #000000;
-    --clr-primary: #dbffa2;
-    --clr-secondary: #c3fcf2;
-    --clr-accent: #ff7750;
-    --clr-commentbox: #EEEEEE;
-    --clr-badge: #000000;
-    --foreground: var(--clr-dark);
-    --background: var(--clr-light);
-}
-
-.darkmode {
-    --clr-light: #EEEEEE;
-    --clr-dark: #000000;
-    --clr-primary: #202302;
-    --clr-commentbox: #1e0d35;
-    --clr-secondary: #00100d;
-    --clr-accent: #ff7750;
-    --clr-badge: #EEEEEE;
-    --foreground: var(--clr-light);
-    --background: var(--clr-dark);
-}
-
 .wrapper {
     background: #171c24;
     position: fixed;
@@ -259,4 +224,34 @@ nav .content .links {
     .wrapper .search-box input {
         padding-right: 30px;
     }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ :root {
+    --clr-light: #EEEEEE;
+    --clr-dark: #000000;
+    --clr-primary: #dbffa2;
+    --clr-secondary: #c3fcf2;
+    --clr-accent: #ff7750;
+    --clr-commentbox: #EEEEEE;
+    --clr-badge: #000000;
+    --foreground: var(--clr-dark);
+    --background: var(--clr-light);
+}
+
+.darkmode {
+    --clr-light: #EEEEEE;
+    --clr-dark: #000000;
+    --clr-primary: #202302;
+    --clr-commentbox: #1e0d35;
+    --clr-secondary: #00100d;
+    --clr-accent: #ff7750;
+    --clr-badge: #EEEEEE;
+    --foreground: var(--clr-light);
+    --background: var(--clr-dark);
 }
